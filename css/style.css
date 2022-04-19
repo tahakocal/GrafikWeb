@@ -26,6 +26,7 @@ font-family: 'Courier New', Courier, monospace;
     padding: 10px;
     border-radius: 10px;
     background: #ECF2FF;
+
 }
 
 .social >a{
@@ -49,4 +50,5 @@ font-family: 'Courier New', Courier, monospace;
 
 .social >a:hover{
     transform: translateY(-10px);
+    
 }
