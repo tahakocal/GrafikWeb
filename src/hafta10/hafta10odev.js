@@ -3,10 +3,10 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"hafta10odev_atlas_1", frames: [[0,1404,600,600],[0,602,600,800],[0,0,800,600],[602,602,600,800],[1204,602,600,800],[802,0,800,600]]},
+		{name:"hafta10odev_atlas_1", frames: [[0,0,1121,1031]]},
 		{name:"hafta10odev_atlas_2", frames: [[0,0,1121,1031]]},
-		{name:"hafta10odev_atlas_3", frames: [[0,0,1121,1031]]},
-		{name:"hafta10odev_atlas_4", frames: [[0,0,1121,1031],[1123,0,800,600],[1123,602,800,600],[0,1204,800,600],[802,1204,800,600]]}
+		{name:"hafta10odev_atlas_3", frames: [[0,0,1121,1031],[1123,0,800,600],[1123,602,800,600],[0,1204,800,600],[802,1204,800,600]]},
+		{name:"hafta10odev_atlas_4", frames: [[0,1404,600,600],[0,602,600,800],[0,0,800,600],[602,602,600,800],[1204,602,600,800],[802,0,800,600]]}
 ];
 
 
@@ -30,92 +30,92 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_6 = function() {
+(lib.CachedBmp_3 = function() {
+	this.initialize(ss["hafta10odev_atlas_1"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2 = function() {
 	this.initialize(ss["hafta10odev_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_5 = function() {
+(lib.CachedBmp_1 = function() {
 	this.initialize(ss["hafta10odev_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_4 = function() {
-	this.initialize(ss["hafta10odev_atlas_4"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.foto1 = function() {
-	this.initialize(ss["hafta10odev_atlas_1"]);
+	this.initialize(ss["hafta10odev_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.foto10 = function() {
-	this.initialize(ss["hafta10odev_atlas_1"]);
+	this.initialize(ss["hafta10odev_atlas_4"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.foto2 = function() {
-	this.initialize(ss["hafta10odev_atlas_4"]);
+	this.initialize(ss["hafta10odev_atlas_3"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.foto3 = function() {
-	this.initialize(ss["hafta10odev_atlas_4"]);
+	this.initialize(ss["hafta10odev_atlas_3"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.foto4 = function() {
-	this.initialize(ss["hafta10odev_atlas_4"]);
+	this.initialize(ss["hafta10odev_atlas_3"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.foto5 = function() {
-	this.initialize(ss["hafta10odev_atlas_4"]);
+	this.initialize(ss["hafta10odev_atlas_3"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.foto6 = function() {
-	this.initialize(ss["hafta10odev_atlas_1"]);
+	this.initialize(ss["hafta10odev_atlas_4"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.foto7 = function() {
-	this.initialize(ss["hafta10odev_atlas_1"]);
+	this.initialize(ss["hafta10odev_atlas_4"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.foto8 = function() {
-	this.initialize(ss["hafta10odev_atlas_1"]);
+	this.initialize(ss["hafta10odev_atlas_4"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.foto9 = function() {
-	this.initialize(ss["hafta10odev_atlas_1"]);
+	this.initialize(ss["hafta10odev_atlas_4"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
@@ -133,7 +133,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("GRAFİK VE ANİMASYON", "bold 43px 'Times New Roman'");
+	this.text = new cjs.Text("GRAFİK VE ANİMASYON", "bold 43px 'Times New Roman'", "#999999");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 50;
 	this.text.lineWidth = 323;
@@ -160,7 +160,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("GRAFİK VE ANİMASYON", "bold 43px 'Times New Roman'");
+	this.text = new cjs.Text("GRAFİK VE ANİMASYON", "bold 43px 'Times New Roman'", "#999999");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 50;
 	this.text.lineWidth = 323;
@@ -187,7 +187,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("BİLGİSAYAR PROGRAMCILIĞI", "bold 43px 'Times New Roman'");
+	this.text = new cjs.Text("BİLGİSAYAR PROGRAMCILIĞI", "bold 43px 'Times New Roman'", "#999999");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 50;
 	this.text.lineWidth = 395;
@@ -214,7 +214,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("BİLGİSAYAR PROGRAMCILIĞI", "bold 43px 'Times New Roman'");
+	this.text = new cjs.Text("BİLGİSAYAR PROGRAMCILIĞI", "bold 43px 'Times New Roman'", "#999999");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 50;
 	this.text.lineWidth = 395;
@@ -241,7 +241,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("205511104\nKÜ", "bold 43px 'Times New Roman'");
+	this.text = new cjs.Text("205511104\nKÜ", "bold 43px 'Times New Roman'", "#999999");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 50;
 	this.text.lineWidth = 225;
@@ -268,7 +268,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("205511104\nKÜ", "bold 43px 'Times New Roman'");
+	this.text = new cjs.Text("205511104\nKÜ", "bold 43px 'Times New Roman'", "#999999");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 50;
 	this.text.lineWidth = 225;
@@ -295,7 +295,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("Mehmet Taha Koçal", "bold 43px 'Times New Roman'");
+	this.text = new cjs.Text("Mehmet Taha Koçal", "bold 43px 'Times New Roman'", "#999999");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 50;
 	this.text.lineWidth = 419;
@@ -322,7 +322,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("Mehmet Taha Koçal", "bold 43px 'Times New Roman'");
+	this.text = new cjs.Text("Mehmet Taha Koçal", "bold 43px 'Times New Roman'", "#999999");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 50;
 	this.text.lineWidth = 419;
@@ -1032,13 +1032,13 @@ lib.properties = {
 	width: 800,
 	height: 200,
 	fps: 24,
-	color: "#ECF2FF",
+	color: "#313131",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/hafta10odev_atlas_1.png?1654199598637", id:"hafta10odev_atlas_1"},
-		{src:"images/hafta10odev_atlas_2.png?1654199598637", id:"hafta10odev_atlas_2"},
-		{src:"images/hafta10odev_atlas_3.png?1654199598637", id:"hafta10odev_atlas_3"},
-		{src:"images/hafta10odev_atlas_4.png?1654199598637", id:"hafta10odev_atlas_4"}
+		{src:"images/hafta10odev_atlas_1.png?1654759925971", id:"hafta10odev_atlas_1"},
+		{src:"images/hafta10odev_atlas_2.png?1654759925971", id:"hafta10odev_atlas_2"},
+		{src:"images/hafta10odev_atlas_3.png?1654759925971", id:"hafta10odev_atlas_3"},
+		{src:"images/hafta10odev_atlas_4.png?1654759925971", id:"hafta10odev_atlas_4"}
 	],
 	preloads: []
 };

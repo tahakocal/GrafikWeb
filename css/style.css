@@ -1,7 +1,7 @@
 body{
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #ECF2FF;
+    background-color: #39393a;
 }
 
 .table1,th,td{
@@ -26,7 +26,7 @@ font-family: 'Courier New', Courier, monospace;
     display: flex;
     padding: 10px;
     border-radius: 10px;
-    background: #ECF2FF;
+    background: #313131;
 
 }
 

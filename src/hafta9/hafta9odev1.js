@@ -320,10 +320,10 @@ lib.properties = {
 	width: 600,
 	height: 600,
 	fps: 24,
-	color: "#ECF2FF",
+	color: "#313131",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/hafta9odev1_atlas_1.png?1654719749169", id:"hafta9odev1_atlas_1"}
+		{src:"images/hafta9odev1_atlas_1.png?1654759562529", id:"hafta9odev1_atlas_1"}
 	],
 	preloads: []
 };
