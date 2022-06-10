@@ -1008,7 +1008,7 @@ if (reversed == null) { reversed = false; }
 		this.buton41.addEventListener("click", fl_ClickToGoToWebPage41);
 		
 		function fl_ClickToGoToWebPage41() {
-		window.open("https://www.formula1.com/", "_blank");
+		 window.location.href = "https://www.formula1.com/";
 		}
 		
 		
@@ -1199,13 +1199,13 @@ if (reversed == null) { reversed = false; }
 		this.buton22.addEventListener("click", fl_ClickToGoToWebPage22);
 		
 		function fl_ClickToGoToWebPage22() {
-			window.open("http://www.adobe.com", "_blank");
+			window.open("http://tahakocal.tech/src/redbull/hafta11redbull.html?i=1", "_blank");
 		}
 		
 		this.buton23.addEventListener("click", fl_ClickToGoToWebPage23);
 		
 		function fl_ClickToGoToWebPage23() {
-			window.open("http://www.adobe.com", "_blank");
+			window.open("http://tahakocal.tech/src/rize/hafta11rize.html?i=1", "_blank");
 		}
 	}
 
